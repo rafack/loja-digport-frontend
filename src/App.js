@@ -1,24 +1,32 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
+import ProductList from './ProductList';
+import ProductDetail from './ProductDetail';
+import ProductForm from './ProductForm';
 import './App.css';
+
+const HomePage = () => {
+  const navigate = useNavigate();
+
+  return (
+    <div>
+      <button className="add-product-button" onClick={() => navigate('/product/new')}>Adicionar Novo Produto</button>
+      <ProductList/>
+    </div>
+  );
+};
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/product/new" element={<ProductForm />} />
+          <Route path="/product/:id" element={<ProductDetail />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

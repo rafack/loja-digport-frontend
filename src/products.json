@@ -1,0 +1,18 @@
+[
+    {
+      "id": "123",
+      "nome": "Cadeira de Escritório",
+      "preco": 499.99,
+      "descricao": "Uma cadeira confortável para o trabalho diário.",
+      "imagem": "https://acdn.mitiendanube.com/stores/002/064/658/products/keva-cadeira-de-escritc3b3rio-diretor-giratc3b3ria-lauren-branca-3897-728877-3-609df4ec8a30935ed016479888264230-640-0.jpg",
+      "quantidadeEmEstoque": 10
+    },
+    {
+        "id": "124",
+        "nome": "Luminária de Mesa",
+        "preco": 99.99,
+        "descricao": "Uma luminária para iluminar o seu ambiente de trabalho.",
+        "imagem": "https://acdn.mitiendanube.com/stores/150/868/products/dct01191-abajur-dourada1-fcc733fee2a8a2ce1016917781894543-1024-1024.jpg",
+        "quantidadeEmEstoque": 20
+    }
+]
