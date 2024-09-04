@@ -22,9 +22,13 @@ Composed by a form to add a new product
 1. Download and install Node.js from the official website: https://nodejs.org/en/
 
 # Run the project
-1. Clone this repository (`git clone <URL>`)
+1. Go to the folder where you are storing the files from DigPort Academy
 
-1. Go to the repository folder (`cd loja-digport-frontend`)
+1. Open a terminal on this folder
+
+1. Clone this repository by running this command on the terminal: `git clone https://github.com/rafack/loja-digport-frontend.git`
+
+1. Run `cd loja-digport-frontend`
 
 1. Run `npm install` to install the project dependencies
 
