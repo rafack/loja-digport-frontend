@@ -21,9 +21,12 @@ Composed by a form to add a new product
 
 1. Download and install Node.js from the official website: https://nodejs.org/en/
 
-1. Run `npm install` to install the project dependencies
+# Run the project
+1. Clone this repository (`git clone <URL>`)
 
-## Run the project
+1. Go to the repository folder (`cd loja-digport-frontend`)
+
+1. Run `npm install` to install the project dependencies
 
 1. Run `npm start` to start the project
 
